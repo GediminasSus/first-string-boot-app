@@ -1,0 +1,13 @@
+<!ELEMENT library (id, name, city, open, yearlyBudget, books)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT open (#PCDATA)>
+<!ELEMENT yearlyBudget (#PCDATA)>
+<!ELEMENT books (book+)>
+<!ELEMENT book (id, title, author, pages, price, available)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT pages (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT available (#PCDATA)>

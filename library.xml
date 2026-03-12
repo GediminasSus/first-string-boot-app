@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<library>
+    <id>1</id>
+    <name>Central City Library</name>
+    <city>Vilnius</city>
+    <open>true</open>
+    <yearlyBudget>50000.0</yearlyBudget>
+    <books>
+        <book>
+            <id>1</id>
+            <title>Java Fundamentals</title>
+            <author>John Carter</author>
+            <pages>320</pages>
+            <price>29.99</price>
+            <available>true</available>
+        </book>
+        <book>
+            <id>2</id>
+            <title>Spring Boot in Practice</title>
+            <author>Anna Brown</author>
+            <pages>410</pages>
+            <price>35.5</price>
+            <available>true</available>
+        </book>
+        <book>
+            <id>3</id>
+            <title>XML Essentials</title>
+            <author>Robert White</author>
+            <pages>280</pages>
+            <price>21.75</price>
+            <available>false</available>
+        </book>
+        <book>
+            <id>4</id>
+            <title>Data Structures</title>
+            <author>Emily Stone</author>
+            <pages>390</pages>
+            <price>32.4</price>
+            <available>true</available>
+        </book>
+        <book>
+            <id>5</id>
+            <title>Algorithms Explained</title>
+            <author>Michael Reed</author>
+            <pages>360</pages>
+            <price>30.0</price>
+            <available>true</available>
+        </book>
+        <book>
+            <id>6</id>
+            <title>Computer Networks</title>
+            <author>Laura Green</author>
+            <pages>450</pages>
+            <price>39.99</price>
+            <available>false</available>
+        </book>
+        <book>
+            <id>7</id>
+            <title>Database Design</title>
+            <author>David Black</author>
+            <pages>300</pages>
+            <price>27.8</price>
+            <available>true</available>
+        </book>
+        <book>
+            <id>8</id>
+            <title>Operating Systems</title>
+            <author>Susan King</author>
+            <pages>500</pages>
+            <price>42.25</price>
+            <available>true</available>
+        </book>
+        <book>
+            <id>9</id>
+            <title>Software Testing</title>
+            <author>Chris Adams</author>
+            <pages>260</pages>
+            <price>24.6</price>
+            <available>false</available>
+        </book>
+        <book>
+            <id>10</id>
+            <title>Artificial Intelligence Basics</title>
+            <author>Linda Moore</author>
+            <pages>340</pages>
+            <price>36.9</price>
+            <available>true</available>
+        </book>
+    </books>
+</library>

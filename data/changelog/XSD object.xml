@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Object xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="XSD Shema.xsd"
+        id="OBJ001"
+        type="SmartHomeSystem">
+
+    <Name>MySmartHome</Name>
+    <Location>Vilnius</Location>
+
+    <DependentObjects>
+
+        <DependentObject id="D01" type="Sensor">
+            <Name>TemperatureSensor</Name>
+            <Status>Active</Status>
+        </DependentObject>
+
+        <DependentObject id="D02" type="Sensor">
+            <Name>HumiditySensor</Name>
+            <Status>Active</Status>
+        </DependentObject>
+
+        <DependentObject id="D03" type="Sensor">
+            <Name>MotionSensor</Name>
+            <Status>Inactive</Status>
+        </DependentObject>
+
+        <DependentObject id="D04" type="Camera">
+            <Name>FrontDoorCamera</Name>
+            <Status>Active</Status>
+        </DependentObject>
+
+        <DependentObject id="D05" type="Camera">
+            <Name>BackYardCamera</Name>
+            <Status>Active</Status>
+        </DependentObject>
+
+        <DependentObject id="D06" type="Light">
+            <Name>LivingRoomLight</Name>
+            <Status>Active</Status>
+        </DependentObject>
+
+        <DependentObject id="D07" type="Light">
+            <Name>KitchenLight</Name>
+            <Status>Inactive</Status>
+        </DependentObject>
+
+        <DependentObject id="D08" type="Thermostat">
+            <Name>MainThermostat</Name>
+            <Status>Active</Status>
+        </DependentObject>
+
+        <DependentObject id="D09" type="DoorLock">
+            <Name>FrontDoorLock</Name>
+            <Status>Locked</Status>
+        </DependentObject>
+
+        <DependentObject id="D10" type="DoorLock">
+            <Name>GarageDoorLock</Name>
+            <Status>Unlocked</Status>
+        </DependentObject>
+
+        <DependentObject id="D11" type="Appliance">
+            <Name>WashingMachine</Name>
+            <Status>Off</Status>
+        </DependentObject>
+
+        <DependentObject id="D12" type="Appliance">
+            <Name>Refrigerator</Name>
+            <Status>On</Status>
+        </DependentObject>
+
+        <DependentObject id="D13" type="Alarm">
+            <Name>FireAlarm</Name>
+            <Status>Active</Status>
+        </DependentObject>
+
+        <DependentObject id="D14" type="Alarm">
+            <Name>SecurityAlarm</Name>
+            <Status>Armed</Status>
+        </DependentObject>
+
+        <DependentObject id="D15" type="Hub">
+            <Name>CentralControlHub</Name>
+            <Status>Online</Status>
+        </DependentObject>
+
+    </DependentObjects>
+
+</Object>
