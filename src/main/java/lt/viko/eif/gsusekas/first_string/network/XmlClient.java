@@ -17,9 +17,7 @@ import lt.viko.eif.gsusekas.first_string.service.XmlValidation;
 ;
 
 
-/**
- * Simple XML client that receives an XML file from the server.
- */
+//// XmlClient class is responsible for connecting to the server, receiving the XML file, validating it against XSD, transforming it to a POJO, and outputting the result to the console.
 @Component
 public class XmlClient {
 

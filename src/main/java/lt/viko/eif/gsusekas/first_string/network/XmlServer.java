@@ -10,9 +10,7 @@ import java.net.Socket;
 
 import org.springframework.stereotype.Component;
 
-/**
- * Simple XML server that sends an XML file to a client over localhost.
- */
+//// XmlServer class is responsible for sending an XML file to the client when it connects to the server.
 @Component
 public class XmlServer {
 
